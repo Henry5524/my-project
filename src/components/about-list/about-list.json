@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_list_about_lists",
+  "info": {
+    "displayName": "About List"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

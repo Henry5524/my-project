@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_table_about_tables",
+  "info": {
+    "displayName": "About Table"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "behavior": {
+      "type": "string"
+    }
+  }
+}

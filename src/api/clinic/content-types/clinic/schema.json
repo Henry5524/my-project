@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clinics",
+  "info": {
+    "singularName": "clinic",
+    "pluralName": "clinics",
+    "displayName": "clinic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "address": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::service.service",
+      "mappedBy": "clinics"
+    }
+  }
+}
